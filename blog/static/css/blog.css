@@ -1,12 +1,9 @@
-h1,h3 a {
-    color: #FCA205;
-    font-family: 'Futura';
-}
+
 
 .page-header {
     background-color: #c0c0c0;
     margin-top: 0;
-    padding: 10px 10px 10px 40px;
+    padding: 10px 5px 10px 40px;
 }
 
 .page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
@@ -15,12 +12,44 @@ h1,h3 a {
     text-decoration: none;
 }
 
+.page-header h1 a:hover {
+	background-color: #bfd7ff;
+	font-size: 36pt;
+	text-decoration: none;
+}
+
 .content {
     margin-left: 40px;
 }
 
 h1, h2, h3, h4 {
-    font-family: 'Lobster', cursive;
+    font-family: 'Futura';
+}
+
+h3 a {
+	color: #172066;
+    font-family: 'Futura';
+}
+
+h3 a:hover, h4 a:hover {
+    color: #bfd7ff;
+    font-family: 'Futura';
+    text-decoration: none;
+}
+
+table {
+	border-spacing: 5px;
+}
+
+td {
+	text-align: left;
+	font-size: 10pt;
+	text-decoration: none;
+}
+
+th {
+	padding:1px;
+	text-align: left;
 }
 
 .date {
